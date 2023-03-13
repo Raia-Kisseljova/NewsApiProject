@@ -8,8 +8,10 @@ I have added 3 predefined search queries , but in index.tsx you can rename or ge
 
 ## How to make app start ? 
 -Create .env.local file in the root directory and follow example from env.example.
--Run npm install
--Run npm run dev
+
+-Run *npm install*
+
+-Run *npm run dev*
 
 You can change pageSize variable to see more than 10 results.
 
