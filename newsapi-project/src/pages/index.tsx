@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Col, Row, Button, Form } from "react-bootstrap";
