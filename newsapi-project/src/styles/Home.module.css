@@ -1,0 +1,12 @@
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  background: #f46b45; 
+  background: -webkit-linear-gradient(to left, #eea849, #f46b45); 
+  background: linear-gradient(to left, #eea849, #f46b45); 
+}
