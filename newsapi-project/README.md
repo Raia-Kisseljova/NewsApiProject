@@ -1,38 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+Project built using NewsApi https://newsapi.org/
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+I have added 3 predefined search queries , but in index.tsx you can rename or generate more query buttons to experiment. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to make app start ? 
+-Create .env.local file in the root directory and follow example from env.example.
+-Run npm install
+-Run npm run dev
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+You can change pageSize variable to see more than 10 results.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+With my API key I am not allowed to deploy app and can only show articles for the last month. 
+However if you want to see a forever loading spinner go here => https://news-api-project-4tu9yw6io-raissa-kisseljova.vercel.app/ 
+My api requests are block by CORS , since I have a limited usage with my api key.
+I took Loader from https://cssloaders.github.io/
